@@ -1,0 +1,36 @@
+{
+  "name": "matrix-rain",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/MatiTea/owd-matrix-rain",
+  "author": {
+    "name": "MatiTea",
+    "url": "https://github.com/MatiTea"
+  },
+  "singleton": true,
+  "config": true,
+  "windows": [
+    {
+      "name": "WindowMatrixRain",
+      "title": "Matrix Rain",
+      "icon": {
+        "name": "mdi-weather-pouring",
+        "size": "25px",
+        "offset": {
+          "y": -2
+        }
+      },
+      "menu": true,
+      "noContentSpacing": true,
+      "size": {
+        "width": 500,
+        "height": 470
+      },
+      "position": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}
