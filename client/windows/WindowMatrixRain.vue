@@ -55,7 +55,7 @@ export default {
       let symbolSize = 18;
       let streams = [];
       let fadeInterval = 1.4;
-      let streamsHue = this.$store.state["matrix-rain"].color;
+      let streamHue = this.$store.state["matrix-rain"].color;
       let draggableHue = self.$store.state["matrix-rain"].draggableHue;
 
       p5.setup = () => {
@@ -96,7 +96,7 @@ export default {
         });
 
         if (draggableHue) {
-          setStreamsHue();
+          setStreamHue();
         }
       };
 
@@ -157,9 +157,9 @@ export default {
           this.symbols.forEach(function (symbol) {
             // set the streams color
             if (symbol.first) {
-              p5.fill(streamsHue, 100, 85, symbol.opacity);
+              p5.fill(streamHue, 100, 85, symbol.opacity);
             } else {
-              p5.fill(streamsHue, 100, 50, symbol.opacity);
+              p5.fill(streamHue, 100, 50, symbol.opacity);
             }
             p5.text(symbol.value, symbol.x, symbol.y);
             // make the symbols rain
@@ -171,13 +171,13 @@ export default {
       }
 
       // change the hue of the streams
-      function setStreamsHue() {
+      function setStreamHue() {
         if (
           p5.mouseIsPressed &&
           p5.mouseButton === p5.LEFT &&
           self.canvas.focus
         ) {
-          streamsHue = p5.round(p5.map(p5.mouseX, 0, p5.width, 0, 360));
+          streamHue = p5.round(p5.map(p5.mouseX, 0, p5.width, 0, 360));
           return false;
         }
       }
