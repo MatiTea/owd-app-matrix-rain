@@ -12,9 +12,9 @@
   "windows": [
     {
       "name": "WindowMatrixRain",
-      "title": "Matrix Rain",
+      "title": "Enter the Matrix",
       "icon": {
-        "name": "mdi-weather-pouring",
+        "name": "mdi-matrix",
         "size": "25px",
         "offset": {
           "y": -2
@@ -24,7 +24,7 @@
       "noContentSpacing": true,
       "size": {
         "width": 500,
-        "height": 470
+        "height": 468
       },
       "position": {
         "x": -1,
