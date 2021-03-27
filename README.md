@@ -9,6 +9,7 @@
 
 ## Features
 - Display a Matrix Digital Rain in your OWD client
+- Set the speed of the rain
 - Choose the hue of the streams according to your mood
 
 ## Quick install
@@ -19,6 +20,8 @@
 
 ## Configuration
 Edit the `config/matrix-rain/config.json` file that you copied during the installation
+- #### Set the rain speed
+    Choose a number to increase or decrease the speed multiplier
 - #### Set the default streams hue
     Choose a value between 0 and 360 to set the default hue of the streams
 - #### Enable/disable the draggableHue function
