@@ -135,7 +135,7 @@ export default {
         // random stream length
         this.totalSymbols = p5.round(p5.random(5, 20));
         // random stream speed
-        this.speed = p5.random(2, 6);
+        this.speed = p5.random(1, 4);
 
         this.generateSymbols = function (x, y) {
           let opacity = 1;
