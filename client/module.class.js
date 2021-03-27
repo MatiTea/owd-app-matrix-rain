@@ -9,6 +9,7 @@ export default class MatrixRainModule extends ModuleApp {
     return {
       state: {
         color: "136",
+        speedMultiplier: 1,
         draggableHue: true
       }
     }

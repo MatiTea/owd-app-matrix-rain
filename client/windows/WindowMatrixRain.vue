@@ -56,6 +56,7 @@ export default {
       let streams = [];
       let fadeInterval = 1.4;
       let streamHue = this.$store.state["matrix-rain"].color;
+      let speedMultiplier = this.$store.state["matrix-rain"].speedMultiplier;
       let draggableHue = self.$store.state["matrix-rain"].draggableHue;
 
       p5.setup = () => {
@@ -135,7 +136,7 @@ export default {
         // random stream length
         this.totalSymbols = p5.round(p5.random(5, 20));
         // random stream speed
-        this.speed = p5.random(1, 4);
+        this.speed = p5.random(1 * speedMultiplier, 4 * speedMultiplier);
 
         this.generateSymbols = function (x, y) {
           let opacity = 1;
