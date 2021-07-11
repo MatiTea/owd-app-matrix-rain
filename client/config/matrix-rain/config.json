@@ -1,5 +1,5 @@
 {
-    "color": 136,
-    "speedMultiplier": 1,
-    "draggableHue": false
+  "streamHue": 136,
+  "speedMultiplier": 0.6,
+  "draggableHue": false
 }

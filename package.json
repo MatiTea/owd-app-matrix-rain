@@ -1,10 +1,13 @@
 {
-  "name": "owd-matrix-rain",
-  "version": "1.0.0",
+  "name": "owd-app-matrix-rain",
+  "version": "1.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/MatiTea/owd-matrix-rain",
+  "homepage": "https://github.com/MatiTea/owd-app-matrix-rain",
   "author": {
     "name": "MatiTea",
     "url": "https://github.com/MatiTea"
+  },
+  "dependencies": {
+    "p5": "^1.4.0"
   }
 }
