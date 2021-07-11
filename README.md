@@ -19,15 +19,11 @@
 ## Quick install
 - Move to your client folder, then
   ```
-  # Enter modules app directory
-  cd src/modules/app/
+  # Install this module with Npm
+  npm install https://github.com/MatiTea/owd-app-matrix-rain
   
-  # Clone this repository
-  git clone https://github.com/MatiTea/owd-app-matrix-rain matrix-rain
-  
-  # Install dependencies using Yarn, or Npm
-  yarn add p5
-  npm install p5
+  # Or using Yarn
+  yarn add https://github.com/MatiTea/owd-app-matrix-rain
   ```
 - Define this module in `owd-client/client.extensions.ts`
   ```js
