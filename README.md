@@ -29,7 +29,7 @@
   ```js
   import AboutModule from "@owd-client/core/src/modules/app/about";
   import DebugModule from "@owd-client/core/src/modules/app/debug";
-  import MatrixRain from "~/modules/app/matrix-rain/client";
+  import MatrixRain from "owd-app-matrix-rain/client";
 
   export default {
     app: {
